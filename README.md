@@ -2,6 +2,17 @@
 
 This repository provides the Pytorch code for the work "Maximum Likelihood Weight Estimation for Partial Domain Adaptation" published in Information Sciences, 2024. The video for introducing this work is available at Bilibili with the link https://b23.tv/u9XyLM7.
 
+<iframe 
+src="https://b23.tv/u9XyLM7" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
 In this work, we address the Partial Domain Adaptation (PDA) problem. The problem aims to generalize a classification model to an unlabeled target domain by harnessing a related labeled source domain, where the source label space contains the target label space. Two primary challenges in PDA weaken the model's classification performance in the target domain: (i) the joint distribution of the source domain is related but distinct from that of the target domain, and (ii) the source outlier data, whose labels do not belong to the target label space, have a negative impact on learning the target classification model. To tackle these challenges, we propose a Maximum Likelihood Weight Estimation (MLWE) approach to learn a weight function for the source domain. The weight function matches the joint source distribution of the relevant part to the joint target distribution, and mitigates the negative impact of the source outlier data effectively. Specifically, we employ a maximum likelihood method to estimate the weight function. The estimation leads to a convex optimization problem which has a global optimal solution. 
 
 
