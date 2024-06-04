@@ -2,17 +2,6 @@
 
 This repository provides the Pytorch code for the work "Maximum Likelihood Weight Estimation for Partial Domain Adaptation" published in Information Sciences, 2024. The video for introducing this work is available at Bilibili with the link https://b23.tv/u9XyLM7.
 
-<iframe 
-src="https://b23.tv/u9XyLM7" 
-scrolling="no" 
-border="0" 
-frameborder="no" 
-framespacing="0" 
-allowfullscreen="true" 
-height=600 
-width=800> 
-</iframe>
-
 
 <video id="video" controls="" preload="none" poster="封面">
       <source id="mp4" src="https://b23.tv/u9XyLM7" type="video/mp4">
